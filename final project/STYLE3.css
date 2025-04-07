@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Offers - Food Ordering</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.header {
+  background-color: #001F3F;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.offers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 2rem;
+}
+.offer :hover{
+    transform: scale(1.4);
+}
+.offer-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.offer-card :hover{
+    transform: scale(1.1);
+}
+
+.offer-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.offer-card h2 {
+  margin: 1rem 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.offer-card p {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.order-btn {
+  background-color: #001F3F;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-btn:hover {
+  background-color: #001F3F;
+}
+  </style>
+  <script>
+    function orderNow(item) {
+  alert('You have selected the item. Your order has been added to the cart.');
+}
+
+  </script>
+</head>
+<body>
+  <header class="header">
+    <h1>Daily Offers</h1>
+  </header>
+
+  <section class="offers">
+    <div class="offer-card">
+      <img src="https://img.buzzfeed.com/video-api-prod/assets/53125c5621bf480d8ae4f02b1cf4ea78/BFV8045_BlackBeanBurgers-Thumb1080B.jpg">
+      <h2>Special Burger Combo (two black bean burgers.)</h2>
+      <p>Enjoy a burger combo at just Rs.500 today!</p>
+      <button class="order-btn" onclick="orderNow('Burger Combo')">Order Now</button>
+    </div>
+
+    <div class="offer-card">
+      <img src="https://www.simplyrecipes.com/thmb/0pVK4YpDJNoXPEAchI_OSDE0UZQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Chicago-Deep-Dish-Pizza-LEAD-5-f8c04d3d77b24e479bbb1502758a5ed1.jpg" alt="Chicago Style." alt="Pizza Offer" HEIGHT="250" WIDTH="100">
+      <h2>Chicago Pizza</h2>
+      <p>Buy 1 Get 1 Free today!</p>
+      <button class="order-btn" onclick="orderNow('Cheese Pizza')">Order Now</button>
+    </div>
+
+    <div class="offer-card">
+      <img src="https://www.whiskaffair.com/wp-content/uploads/2020/02/Chilli-Garlic-Noodles-2-3.jpg">
+      <h2>Garlic Noodles</h2>
+      <p>Get the Delicious Garlic Noodles at your Doorstep @100 </p>
+      <button class="order-btn" onclick="orderNow('Creamy Alfredo Pasta')">Order Now</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

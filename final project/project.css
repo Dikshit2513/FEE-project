@@ -1,0 +1,63 @@
+body{
+    background-color: #bba590;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+    
+#logo{
+    height: 100px;
+    width: 100px;
+}
+#navbar{
+    margin-left: 200px;
+    color: black;
+ 
+}
+.navbutton{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 5px;
+
+    text-shadow: 1px 1px orange;
+    
+}
+
+.banner-card img{
+    width:100%;
+    height: 600px;
+}
+.banner-text{
+    position:absolute;
+    top:25%;
+    margin-left: 420px;
+    color:white;
+}
+.second-text{
+    position:absolute;
+    top:30%;
+    margin-left: 325px;
+    color:white;
+}
+ h4{
+    text-transform:uppercase ;
+     font-size:45px;
+     font-weight: 900;
+     font-style:bold;
+}
+ p{
+    font-size:90px;
+    font-family:lucida handwriting;
+    
+    
+}
+#slidingimgs{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}

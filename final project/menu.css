@@ -1,0 +1,134 @@
+
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+  background-image: url(https://t3.ftcdn.net/jpg/02/96/69/22/360_F_296692203_k4lOpOt8mAcYpKzicNmJTpnsE9ZdwyHX.jpg);
+  background-size: 500px;
+    border: aliceblue;
+   
+    padding: 20px;
+    height: 2770PX;
+}
+
+.sidebar h2 {
+    margin-bottom: 35px;
+    font-size: 45px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-image: url(https://t3.ftcdn.net/jpg/02/96/69/22/360_F_296692203_k4lOpOt8mAcYpKzicNmJTpnsE9ZdwyHX.jpg);
+    background-size: 1000px;
+}
+
+header {
+    display: flex;
+
+    margin-bottom: 30px;
+}
+
+header input[type="text"] {
+    padding: 12px;
+    width: 200px;
+    margin-right:200px ;
+}
+
+header button {
+    padding: 12px;
+    margin-right: 10px;
+    background-color:gold;
+    border: solid;
+    cursor: pointer;
+}
+.last-buttons{
+    margin-right: 100px;
+}
+
+
+h1 {
+    margin-bottom: 10px;
+color: aliceblue;
+}
+
+.food-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    animation: zoomIn 2s ease-out;
+
+}
+.food-menu :hover{
+    transform: scale(1.1); 
+}
+
+
+.food-card {
+    width: 194px;
+    padding: 10px;
+    height: 270px;
+    background-color: #ffe6e6;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.food-card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.food-card p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.food-card span {
+    color: #888;
+}
+h2{
+color: aliceblue;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: aliceblue;
+    border-color: gainsboro;
+    margin-right: 30px;
+   
+    
+}
+#last-buttons{
+    margin-right: 40px;
+}
+.add-to-cart{
+    margin-top:10px;
+    height: 35px;
+    width:120px;
+    background-color: black;
+    color: aliceblue;
+}
+
+   
